@@ -1,0 +1,24 @@
++-------+
+| BUILD |
++-------+
+
+Comments: make
+
++---------+
+|TESTCASES|
++---------+
+
+
+
+No warnings. 
+Bad command line handled. 
+
+
+Files: 
+
+main.c - main program
+function.h - header file 
+encrypt.c - encrypt function
+decrypt.c - decrypt function
+merge.c - merge function
+Makefile
