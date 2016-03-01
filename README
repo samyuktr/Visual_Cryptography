@@ -12,3 +12,16 @@ encrypt.c - encrypt function
 decrypt.c - decrypt function
 merge.c - merge function
 Makefile
+
+Commands to run - 
+
+    hw2 stream -p=pphrase -l=len
+    hw2 encrypt -p=pphrase -out=name [pbmfile]
+    hw2 merge pbmfile1 pbmfile2
+    hw2 decrypt [pbmfile]
+  
+  
+    stream	  :  	The output is a binary stream of bytes of length len.
+    encrypt	  :  	There is no output for this command. The side effect of this command is to create two files in the P4 PBM format.
+    merge	  :  	The output of this command is a file in the P4 PBM format.
+    decrypt	  :  	The output of this command is a file in the P4 PBM format.
